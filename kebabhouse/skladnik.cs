@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace kebabhouse
 {
-    internal class skladnik
+    public class skladnik
     {
+        public void DisplayMaso(List<sklad> veci)
+        {
+            foreach(var vec in veci)
+            {
+                Console.WriteLine($"maso: {vec.Maso}");
+            }
+        
+        }
+        
+        
+    
+    
     }
 }

@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace kebabhouse
 {
-    internal class sklad
+    public class sklad
     {
+        public int Maso;
+
+        public sklad(int maso)
+        {
+            Maso = maso;
+        }
+
+        public void DisplayInfo()
+        {
+
+        }
+        
+            
+        
+        
     }
 }
