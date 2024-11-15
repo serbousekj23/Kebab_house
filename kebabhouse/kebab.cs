@@ -8,7 +8,10 @@ namespace kebabhouse
 {
     public class kebab
     {
-        
-
+        public string Nazev {  get; set; }
+        public kebab(string nazev)
+        {
+            Nazev = nazev;
+        }
     }
 }
